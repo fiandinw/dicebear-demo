@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
+
+html{
+  font-family: 'Red Hat Display', sans-serif;
+  color: rgb(240, 240, 240);
+}
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, rgb(40, 40, 107), rgb(86, 86, 223));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+main{
+  width: max-content;
+  height: max-content;
+  text-align: center;
+}
+
+.dicebear{
+  border-radius: 1em;
+  background-color: rgb(240, 240, 240);
+  padding: 2em;
+  max-width: 12em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+input, button{
+  border: none;
+  padding: 0.5em;
+}
+
+input{
+  border-radius: 1em 0em 0em 1em;
+}
+
+button{
+  border-radius: 0em 1em 1em 0em;
+}
+
+button:active{
+  background-color: rgb(200, 200, 200);
+}
